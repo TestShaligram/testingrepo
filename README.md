@@ -21,3 +21,5 @@ The Activity works with a ViewModel to do the following:
 The ViewModel works with the data source to get and save the data.
 
 Room guarantees that the observable query will be triggered on a background thread. In the Activity, the Flowable events are set to be received on the main thread, so the UI can be updated. The insert query is synchronous so it's wrapped in a Completable and executed on a background thread. On completion, the Activity is notified on the main thread.
+
+[![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=59fb10bb7a680d000129250e&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/59fb10bb7a680d000129250e/build/latest?branch=master)
